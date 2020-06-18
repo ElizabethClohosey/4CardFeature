@@ -59,10 +59,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  .icon {
-    text-align: right;
-  }
 }
 
 // -----------------
@@ -96,6 +92,9 @@ header {
   margin-bottom: 1rem;
 }
 
+.icon {
+  text-align: right;
+}
 // =================
 // Media Queries
 // =================
