@@ -7,6 +7,47 @@ body {
   background: whitesmoke;
 }
 
+header {
+  padding: 3rem 0;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .header-container {
+  max-width: 30rem;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+header h1 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 1.65rem;
+  color: #0b0f4e;
+}
+
+header h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+}
+
+header p {
+  font-family: "Heebo", sans-serif;
+  color: #9c9c9c;
+  font-weight: 700;
+}
+
 .main-content {
   display: -webkit-box;
   display: -ms-flexbox;
